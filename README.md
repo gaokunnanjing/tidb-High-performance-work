@@ -73,9 +73,10 @@ mysql -h 127.0.0.1 -P 4000 -u root -D test
 ![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work1_images/%E8%BF%9E%E6%8E%A5%E6%B5%8B%E8%AF%95_20200816111642.png)<br>
 至此,源码安装部署成功 <br>
 ### 5修改源代码,重新部署,使得开启事务时打印 hello transaction
-修改txn.go 514行 startTS函数<br>
-![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work1_images/%E4%BF%AE%E6%94%B9%E6%BA%90%E7%A0%81_20200816112112.png)<br>
-重新编译,启动部署后运行结果<br>
-![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work1_images/%E6%97%A5%E5%BF%97%E6%95%88%E6%9E%9C_20200816112144.png)<br>
+修改conn.go文件 dispatch函数<br>
+![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work1_images/1_20200816141356.png)<br>
+重新编译,启动部署后,执行sql,运行结果<br>
+![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work1_images/3_20200816141118.png)<br>
+![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work1_images/2_20200816141237.png)<br>
 
 
