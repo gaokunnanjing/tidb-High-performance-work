@@ -66,6 +66,8 @@ cargo rustc -- -C link-arg=-nostartfiles<br>
 --path="127.0.0.1:2379" \
 --log-file=tidb.log
 
+
+使用 netstat -lntp查看是否启动成功<br>
 然后使用 mysql client进行连接<br>
 mysql -h 127.0.0.1 -P 4000 -u root -D test
 ![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work1_images/%E8%BF%9E%E6%8E%A5%E6%B5%8B%E8%AF%95_20200816111642.png)<br>
