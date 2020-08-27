@@ -40,4 +40,4 @@ sysbench oltp_point_select --config-file=config  --threads=32 --tables=32 --tabl
 运行测试<br>
 ./bin/go-tpc tpcc -H 172.18.0.1 -P 4000 -D tpcc --warehouses 10 prepare <br>
 测试结果<br>
-![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work2_images/go-ycsb.png) <br>
+![](https://github.com/gaokunnanjing/tidb-High-performance-work/blob/master/work2_images/2020-08-27%2009-44-54%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png) <br>
